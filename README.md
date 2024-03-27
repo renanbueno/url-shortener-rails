@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Rode o comando Rails Console
 
-Things you may want to cover:
+- Execute o comando Link.shorten("url-que-deseja-encurtar") caso queira uma URL gerada pelo sistema
 
-* Ruby version
+- Execute o comando Link.shorten("url-que-deseja-encurtar", "url-encurtada") caso queira uma URL customizada
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Copie o link gerado pelo comando (Ex. http://localhost:3000/s/7e29ba) e cole no seu navegador
