@@ -73,6 +73,9 @@ Rails.application.configure do
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
+
+  # Allow hosting on *.repl.co hosts
+  config.hosts << /.*\.repl.co/
 end
 
-Rails.application.routes.default_url_options[:host] = '127.0.0.1'
+# Rails.application.routes.default_url_options[:host] = '127.0.0.1'
